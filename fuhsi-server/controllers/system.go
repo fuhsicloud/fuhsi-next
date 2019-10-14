@@ -13,7 +13,7 @@
 
 package controllers
 
-import . "github.com/nvwa-io/nvwa-io/nvwa-server/svrs"
+import . "github.com/fuhsicloud/fuhsi-next/fuhsi-server/svrs"
 
 type SystemController struct {
 	BaseAuthController

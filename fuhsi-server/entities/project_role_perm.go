@@ -1,6 +1,6 @@
 package entities
 
-import "github.com/nvwa-io/nvwa-io/nvwa-server/lang"
+import "github.com/fuhsicloud/fuhsi-next/fuhsi-server/lang"
 
 const (
     // project permission

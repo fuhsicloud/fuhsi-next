@@ -13,7 +13,7 @@
 
 package workers
 
-import . "github.com/nvwa-io/nvwa-io/nvwa-server/svrs"
+import . "github.com/fuhsicloud/fuhsi-next/fuhsi-server/svrs"
 
 var DefaultNotifyWorker = new(NotifyWorker)
 

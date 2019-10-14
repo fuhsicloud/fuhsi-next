@@ -17,8 +17,8 @@ import (
 	"encoding/json"
 	"fmt"
 	"github.com/astaxie/beego"
-	"github.com/nvwa-io/nvwa-io/nvwa-server/lang"
-	"github.com/nvwa-io/nvwa-io/nvwa-server/libs/errs"
+	"github.com/fuhsicloud/fuhsi-next/fuhsi-server/lang"
+	"github.com/fuhsicloud/fuhsi-next/fuhsi-server/libs/errs"
 	"os"
 	"strings"
 )

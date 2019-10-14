@@ -14,8 +14,8 @@
 package apis
 
 import (
-	"github.com/nvwa-io/nvwa-io/nvwa-server/libs/errs"
-	. "github.com/nvwa-io/nvwa-io/nvwa-server/svrs"
+	"github.com/fuhsicloud/fuhsi-next/nvwa-server/libs/errs"
+	. "github.com/fuhsicloud/fuhsi-next/fuhsi-server/svrs"
 )
 
 type NotifyApi struct {

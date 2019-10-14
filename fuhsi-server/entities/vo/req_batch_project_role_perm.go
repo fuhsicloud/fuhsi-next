@@ -3,8 +3,8 @@ package vo
 import (
 	"errors"
 	"github.com/astaxie/beego/validation"
-	"github.com/nvwa-io/nvwa-io/nvwa-server/entities"
-	"github.com/nvwa-io/nvwa-io/nvwa-server/lang"
+	"github.com/fuhsicloud/fuhsi-next/fuhsi-server/entities"
+	"github.com/fuhsicloud/fuhsi-next/fuhsi-server/lang"
 )
 
 type ReqBatchProjectRolePerm struct {

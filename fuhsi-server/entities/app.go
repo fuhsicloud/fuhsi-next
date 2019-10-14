@@ -2,7 +2,7 @@ package entities
 
 import (
     "fmt"
-    "github.com/nvwa-io/nvwa-io/nvwa-server/libs"
+    "github.com/fuhsicloud/fuhsi-next/fuhsi-server/libs"
     "strings"
 )
 

@@ -16,7 +16,7 @@ package option
 import (
 	"encoding/json"
 	"github.com/BurntSushi/toml"
-	"github.com/nvwa-io/nvwa-io/nvwa-agent/libs/logger"
+	"github.com/fuhsicloud/fuhsi-next/fuhsi-agent/libs/logger"
 	"log"
 )
 

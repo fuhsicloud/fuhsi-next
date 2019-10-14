@@ -2,7 +2,7 @@ package errs
 
 import (
     "fmt"
-    "github.com/nvwa-io/nvwa-io/nvwa-server/lang"
+    "github.com/fuhsicloud/fuhsi-next/fuhsi-server/lang"
     "strconv"
     "strings"
 )

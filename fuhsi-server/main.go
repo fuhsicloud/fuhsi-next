@@ -15,9 +15,9 @@ package main
 
 import (
 	"github.com/astaxie/beego/plugins/cors"
-	"github.com/nvwa-io/nvwa-io/nvwa-server/libs/auth"
-	_ "github.com/nvwa-io/nvwa-io/nvwa-server/routers"
-	_ "github.com/nvwa-io/nvwa-io/nvwa-server/tasks"
+	"github.com/fuhsicloud/fuhsi-next/fuhsi-server/libs/auth"
+	_ "github.com/fuhsicloud/fuhsi-next/fuhsi-server/routers"
+	_ "github.com/fuhsicloud/fuhsi-next/fuhsi-server/tasks"
 
 	"github.com/astaxie/beego"
 )

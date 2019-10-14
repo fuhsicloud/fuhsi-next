@@ -15,7 +15,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/nvwa-io/nvwa-io/nvwa-agent/cmd"
+	"github.com/fuhsicloud/fuhsi-next/fuhsi-agent/cmd"
 	"github.com/spf13/pflag"
 	"os"
 	"strings"

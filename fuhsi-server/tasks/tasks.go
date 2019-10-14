@@ -15,7 +15,7 @@ package tasks
 
 import (
 	"github.com/astaxie/beego/toolbox"
-	. "github.com/nvwa-io/nvwa-io/nvwa-server/tasks/workers"
+	. "github.com/fuhsicloud/fuhsi-next/fuhsi-server/tasks/workers"
 )
 
 func init() {

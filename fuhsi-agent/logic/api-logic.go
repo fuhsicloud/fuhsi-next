@@ -17,9 +17,9 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"github.com/nvwa-io/nvwa-io/nvwa-agent/libs"
-	"github.com/nvwa-io/nvwa-io/nvwa-agent/libs/logger"
-	"github.com/nvwa-io/nvwa-io/nvwa-agent/option"
+	"github.com/fuhsicloud/fuhsi-next/fuhsi-agent/libs"
+	"github.com/fuhsicloud/fuhsi-next/fuhsi-agent/libs/logger"
+	"github.com/fuhsicloud/fuhsi-next/fuhsi-agent/option"
 	"gopkg.in/resty.v1"
 )
 

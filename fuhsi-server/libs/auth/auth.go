@@ -4,18 +4,18 @@ import (
     "encoding/json"
     "errors"
     "fmt"
-    "github.com/nvwa-io/nvwa-io/nvwa-server/libs"
-    "github.com/nvwa-io/nvwa-io/nvwa-server/libs/encrypt"
-    "github.com/nvwa-io/nvwa-io/nvwa-server/libs/errs"
-    "github.com/nvwa-io/nvwa-io/nvwa-server/libs/logger"
+    "github.com/fuhsicloud/fuhsi-next/fuhsi-server/libs"
+    "github.com/fuhsicloud/fuhsi-next/fuhsi-server/libs/encrypt"
+    "github.com/fuhsicloud/fuhsi-next/fuhsi-server/libs/errs"
+    "github.com/fuhsicloud/fuhsi-next/fuhsi-server/libs/logger"
     "github.com/astaxie/beego/context"
     "strings"
     "time"
 )
 
 const (
-    UCINFO_SALT = "@**nvwa-io**@"
-    KEY_TOKEN   = "Nvwa-Token"
+    UCINFO_SALT = "@**fuhsicloud**@"
+    KEY_TOKEN   = "Fuhsi-Token"
     EXPIRE      = 7 * 24 * 3600
 )
 

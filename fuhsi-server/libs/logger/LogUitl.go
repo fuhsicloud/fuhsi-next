@@ -8,7 +8,7 @@ import (
     "strings"
     "github.com/astaxie/beego"
     "sync"
-    "github.com/nvwa-io/nvwa-io/nvwa-server/libs"
+    "github.com/fuhsicloud/fuhsi-next/fuhsi-server/libs"
 )
 
 var (

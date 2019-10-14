@@ -16,7 +16,7 @@ package oss_client
 import (
 	"errors"
 	"github.com/aliyun/aliyun-oss-go-sdk/oss"
-	"github.com/nvwa-io/nvwa-io/nvwa-agent/libs/logger"
+	"github.com/fuhsicloud/fuhsi-next/fuhsi-agent/libs/logger"
 	"io/ioutil"
 	"strings"
 )

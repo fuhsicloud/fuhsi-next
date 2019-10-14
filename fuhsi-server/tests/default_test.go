@@ -6,7 +6,7 @@ import (
 	"testing"
 	"runtime"
 	"path/filepath"
-	_ "github.com/nvwa-io/nvwa-io/nvwa-server/routers"
+	_ "github.com/fuhsicloud/fuhsi-next/fuhsi-server/routers"
 
 	"github.com/astaxie/beego"
 	. "github.com/smartystreets/goconvey/convey"

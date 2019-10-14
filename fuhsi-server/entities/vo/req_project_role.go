@@ -1,8 +1,8 @@
 package vo
 
 import (
-    "github.com/nvwa-io/nvwa-io/nvwa-server/entities"
-    "github.com/nvwa-io/nvwa-io/nvwa-server/lang"
+    "github.com/fuhsicloud/fuhsi-next/fuhsi-server/entities"
+    "github.com/fuhsicloud/fuhsi-next/fuhsi-server/lang"
     "github.com/astaxie/beego/validation"
 )
 

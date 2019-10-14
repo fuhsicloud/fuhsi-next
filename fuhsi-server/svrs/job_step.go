@@ -15,8 +15,8 @@ package svrs
 
 import (
 	"github.com/go-ozzo/ozzo-dbx"
-	. "github.com/nvwa-io/nvwa-io/nvwa-server/daos"
-	. "github.com/nvwa-io/nvwa-io/nvwa-server/entities"
+	. "github.com/fuhsicloud/fuhsi-next/fuhsi-server/daos"
+	. "github.com/fuhsicloud/fuhsi-next/fuhsi-server/entities"
 )
 
 var DefaultJobStepSvr = new(JobStepSvr)

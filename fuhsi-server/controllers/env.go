@@ -17,11 +17,11 @@ import (
 	"database/sql"
 	"github.com/astaxie/beego/validation"
 	"github.com/go-ozzo/ozzo-dbx"
-	"github.com/nvwa-io/nvwa-io/nvwa-server/daos"
-	"github.com/nvwa-io/nvwa-io/nvwa-server/entities/vo"
-	"github.com/nvwa-io/nvwa-io/nvwa-server/lang"
-	"github.com/nvwa-io/nvwa-io/nvwa-server/libs/errs"
-	. "github.com/nvwa-io/nvwa-io/nvwa-server/svrs"
+	"github.com/fuhsicloud/fuhsi-next/fuhsi-server/daos"
+	"github.com/fuhsicloud/fuhsi-next/fuhsi-server/entities/vo"
+	"github.com/fuhsicloud/fuhsi-next/fuhsi-server/lang"
+	"github.com/fuhsicloud/fuhsi-next/fuhsi-server/libs/errs"
+	. "github.com/fuhsicloud/fuhsi-next/fuhsi-server/svrs"
 )
 
 type EnvController struct {

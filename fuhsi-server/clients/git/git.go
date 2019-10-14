@@ -16,7 +16,7 @@ package git
 import (
 	"errors"
 	"fmt"
-	"github.com/nvwa-io/nvwa-io/nvwa-server/libs/logger"
+	"github.com/fuhsicloud/fuhsi-next/fuhsi-server/libs/logger"
 	"gopkg.in/src-d/go-git.v4"
 	"gopkg.in/src-d/go-git.v4/config"
 	"gopkg.in/src-d/go-git.v4/plumbing"

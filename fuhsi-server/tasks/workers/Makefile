@@ -1,4 +1,4 @@
-PATH=github.com/nvwa-io/nvwa-io/nvwa-server/tasks/workers
+PATH=github.com/fuhsicloud/fuhsi-next/fuhsi-server/tasks/workers
 
 deal-once:
 	go test -count=1 -v ${PATH}  -run=Test_BuildDealOnce

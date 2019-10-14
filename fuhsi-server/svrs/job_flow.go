@@ -17,9 +17,9 @@ import (
 	"errors"
 	"fmt"
 	"github.com/go-ozzo/ozzo-dbx"
-	"github.com/nvwa-io/nvwa-io/nvwa-server/clients/ansible"
-	. "github.com/nvwa-io/nvwa-io/nvwa-server/entities"
-	"github.com/nvwa-io/nvwa-io/nvwa-server/libs/logger"
+	"github.com/fuhsicloud/fuhsi-next/fuhsi-server/clients/ansible"
+	. "github.com/fuhsicloud/fuhsi-next/fuhsi-server/entities"
+	"github.com/fuhsicloud/fuhsi-next/fuhsi-server/libs/logger"
 	"strings"
 	"time"
 )

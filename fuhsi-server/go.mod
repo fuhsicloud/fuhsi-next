@@ -1,1 +1,1 @@
-module fuhsi-next/nvwa-server
+module github.com/fuhsicloud/fuhsi-next/fuhsi-server

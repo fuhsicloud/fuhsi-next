@@ -16,10 +16,10 @@ package svrs
 import (
 	"database/sql"
 	"github.com/go-ozzo/ozzo-dbx"
-	. "github.com/nvwa-io/nvwa-io/nvwa-server/daos"
-	. "github.com/nvwa-io/nvwa-io/nvwa-server/entities"
-	"github.com/nvwa-io/nvwa-io/nvwa-server/libs"
-	"github.com/nvwa-io/nvwa-io/nvwa-server/libs/logger"
+	. "github.com/fuhsicloud/fuhsi-next/fuhsi-server/daos"
+	. "github.com/fuhsicloud/fuhsi-next/fuhsi-server/entities"
+	"github.com/fuhsicloud/fuhsi-next/fuhsi-server/libs"
+	"github.com/fuhsicloud/fuhsi-next/fuhsi-server/libs/logger"
 )
 
 var DefaultProjectRolePermSvr = new(ProjectRolePermSvr)

@@ -1,5 +1,5 @@
 # define compiled agent name
-NAME=nvwa-agent
+NAME=fuhsi-agent
 
 .PHONY: clean build tidy vendor
 

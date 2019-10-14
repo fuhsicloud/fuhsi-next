@@ -15,8 +15,8 @@ package cmd
 
 import (
 	"fmt"
-	"github.com/nvwa-io/nvwa-io/nvwa-agent/lang"
-	"github.com/nvwa-io/nvwa-io/nvwa-agent/option"
+	"github.com/fuhsicloud/fuhsi-next/fuhsi-agent/lang"
+	"github.com/fuhsicloud/fuhsi-next/fuhsi-agent/option"
 	"github.com/spf13/cobra"
 )
 

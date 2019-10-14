@@ -1,5 +1,5 @@
 # define compiled bin
-NAME=nvwa-server
+NAME=fuhsi-server
 
 .PHONY: clean
 

@@ -14,8 +14,8 @@
 package workers
 
 import (
-	"github.com/nvwa-io/nvwa-io/nvwa-server/libs/logger"
-	. "github.com/nvwa-io/nvwa-io/nvwa-server/svrs"
+	"github.com/fuhsicloud/fuhsi-next/fuhsi-server/libs/logger"
+	. "github.com/fuhsicloud/fuhsi-next/fuhsi-server/svrs"
 	"time"
 )
 

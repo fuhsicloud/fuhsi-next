@@ -7,7 +7,7 @@ import (
 
 func init() {
 
-	beego.GlobalControllerRouter["github.com/nvwa-io/nvwa-io/nvwa-server/controllers/apis:BuildApi"] = append(beego.GlobalControllerRouter["github.com/nvwa-io/nvwa-io/nvwa-server/controllers/apis:BuildApi"],
+	beego.GlobalControllerRouter["github.com/fuhsicloud/fuhsi-next/fuhsi-server/controllers/apis:BuildApi"] = append(beego.GlobalControllerRouter["github.com/nvwa-io/nvwa-io/nvwa-server/controllers/apis:BuildApi"],
 		beego.ControllerComments{
 			Method: "UpdateInfo",
 			Router: `/update-info`,
@@ -15,7 +15,7 @@ func init() {
 			MethodParams: param.Make(),
 			Params: nil})
 
-	beego.GlobalControllerRouter["github.com/nvwa-io/nvwa-io/nvwa-server/controllers/apis:BuildApi"] = append(beego.GlobalControllerRouter["github.com/nvwa-io/nvwa-io/nvwa-server/controllers/apis:BuildApi"],
+	beego.GlobalControllerRouter["github.com/fuhsicloud/fuhsi-next/fuhsi-server/controllers/apis:BuildApi"] = append(beego.GlobalControllerRouter["github.com/nvwa-io/nvwa-io/nvwa-server/controllers/apis:BuildApi"],
 		beego.ControllerComments{
 			Method: "UploadPackage",
 			Router: `/upload-package`,
@@ -23,7 +23,7 @@ func init() {
 			MethodParams: param.Make(),
 			Params: nil})
 
-	beego.GlobalControllerRouter["github.com/nvwa-io/nvwa-io/nvwa-server/controllers/apis:NotifyApi"] = append(beego.GlobalControllerRouter["github.com/nvwa-io/nvwa-io/nvwa-server/controllers/apis:NotifyApi"],
+	beego.GlobalControllerRouter["github.com/fuhsicloud/fuhsi-next/fuhsi-server/controllers/apis:NotifyApi"] = append(beego.GlobalControllerRouter["github.com/nvwa-io/nvwa-io/nvwa-server/controllers/apis:NotifyApi"],
 		beego.ControllerComments{
 			Method: "Commit",
 			Router: `/commit`,

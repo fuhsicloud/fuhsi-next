@@ -14,9 +14,9 @@
 package controllers
 
 import (
-	"github.com/nvwa-io/nvwa-io/nvwa-server/libs/auth"
-	"github.com/nvwa-io/nvwa-io/nvwa-server/libs/errs"
-	"github.com/nvwa-io/nvwa-io/nvwa-server/libs/logger"
+	"github.com/fuhsicloud/fuhsi-next/fuhsi-server/libs/auth"
+	"github.com/fuhsicloud/fuhsi-next/fuhsi-server/libs/errs"
+	"github.com/fuhsicloud/fuhsi-next/fuhsi-server/libs/logger"
 )
 
 // 需要登录后才能访问的 Controller 只需要组合该 BaseAuthController

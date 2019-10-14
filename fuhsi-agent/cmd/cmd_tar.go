@@ -14,10 +14,10 @@
 package cmd
 
 import (
-	"github.com/nvwa-io/nvwa-io/nvwa-agent/lang"
-	"github.com/nvwa-io/nvwa-io/nvwa-agent/libs/logger"
-	"github.com/nvwa-io/nvwa-io/nvwa-agent/logic"
-	"github.com/nvwa-io/nvwa-io/nvwa-agent/option"
+	"github.com/fuhsicloud/fuhsi-next/fuhsi-agent/lang"
+	"github.com/fuhsicloud/fuhsi-next/fuhsi-agent/libs/logger"
+	"github.com/fuhsicloud/fuhsi-next/fuhsi-agent/logic"
+	"github.com/fuhsicloud/fuhsi-next/fuhsi-agent/option"
 	"github.com/spf13/cobra"
 	"os"
 )

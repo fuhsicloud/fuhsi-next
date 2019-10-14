@@ -13,7 +13,7 @@
 
 package apis
 
-import "github.com/nvwa-io/nvwa-io/nvwa-server/controllers"
+import "github.com/fuhsicloud/fuhsi-next/fuhsi-server/controllers"
 
 type BaseApi struct {
 	controllers.BaseController

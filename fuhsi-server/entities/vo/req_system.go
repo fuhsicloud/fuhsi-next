@@ -2,7 +2,7 @@ package vo
 
 import (
     "github.com/astaxie/beego/validation"
-    "github.com/nvwa-io/nvwa-io/nvwa-server/entities"
+    "github.com/fuhsicloud/fuhsi-next/fuhsi-server/entities"
 )
 
 type ReqSystem struct {

@@ -21,8 +21,8 @@
 package routers
 
 import (
-	"github.com/nvwa-io/nvwa-io/nvwa-server/controllers"
-	"github.com/nvwa-io/nvwa-io/nvwa-server/controllers/apis"
+	"github.com/fuhsicloud/fuhsi-next/fuhsi-server/controllers"
+	"github.com/fuhsicloud/fuhsi-next/fuhsi-server/controllers/apis"
 
 	"github.com/astaxie/beego"
 )

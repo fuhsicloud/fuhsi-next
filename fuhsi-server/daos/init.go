@@ -2,7 +2,7 @@ package daos
 
 import (
     "fmt"
-    "github.com/nvwa-io/nvwa-io/nvwa-server/libs/logger"
+    "github.com/fuhsicloud/fuhsi-next/fuhsi-server/libs/logger"
     "github.com/astaxie/beego"
     "github.com/go-ozzo/ozzo-dbx"
     _ "github.com/go-sql-driver/mysql"

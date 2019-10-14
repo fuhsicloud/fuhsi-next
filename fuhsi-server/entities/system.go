@@ -2,8 +2,8 @@ package entities
 
 import (
     "encoding/json"
-    "github.com/nvwa-io/nvwa-io/nvwa-server/libs"
-    "github.com/nvwa-io/nvwa-io/nvwa-server/libs/logger"
+    "github.com/fuhsicloud/fuhsi-next/fuhsi-server/libs"
+    "github.com/fuhsicloud/fuhsi-next/fuhsi-server/libs/logger"
 )
 
 const (

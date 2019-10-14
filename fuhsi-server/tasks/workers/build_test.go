@@ -1,9 +1,9 @@
 package workers
 
 import (
-    "github.com/nvwa-io/nvwa-io/nvwa-server/entities"
-    "github.com/nvwa-io/nvwa-io/nvwa-server/libs"
-    "github.com/nvwa-io/nvwa-io/nvwa-server/svrs"
+    "github.com/fuhsicloud/fuhsi-next/fuhsi-server/entities"
+    "github.com/fuhsicloud/fuhsi-next/fuhsi-server/libs"
+    "github.com/fuhsicloud/fuhsi-next/fuhsi-server/svrs"
     "github.com/astaxie/beego"
     "log"
     "path/filepath"

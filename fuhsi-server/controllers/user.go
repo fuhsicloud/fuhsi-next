@@ -14,8 +14,8 @@
 package controllers
 
 import (
-	"github.com/nvwa-io/nvwa-io/nvwa-server/libs/errs"
-	. "github.com/nvwa-io/nvwa-io/nvwa-server/svrs"
+	"github.com/fuhsicloud/fuhsi-next/fuhsi-server/libs/errs"
+	. "github.com/fuhsicloud/fuhsi-next/fuhsi-server/svrs"
 )
 
 type UserController struct {

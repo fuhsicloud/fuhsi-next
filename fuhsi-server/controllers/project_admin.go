@@ -15,10 +15,10 @@ package controllers
 
 import (
 	"github.com/go-ozzo/ozzo-dbx"
-	. "github.com/nvwa-io/nvwa-io/nvwa-server/daos"
-	. "github.com/nvwa-io/nvwa-io/nvwa-server/entities"
-	"github.com/nvwa-io/nvwa-io/nvwa-server/libs/errs"
-	. "github.com/nvwa-io/nvwa-io/nvwa-server/svrs"
+	. "github.com/fuhsicloud/fuhsi-next/fuhsi-server/daos"
+	. "github.com/fuhsicloud/fuhsi-next/fuhsi-server/entities"
+	"github.com/fuhsicloud/fuhsi-next/fuhsi-server/libs/errs"
+	. "github.com/fuhsicloud/fuhsi-next/fuhsi-server/svrs"
 )
 
 // @Title get projects

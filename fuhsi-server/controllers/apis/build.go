@@ -18,11 +18,11 @@ import (
 	"encoding/json"
 	"fmt"
 	"github.com/go-ozzo/ozzo-dbx"
-	"github.com/nvwa-io/nvwa-io/nvwa-server/controllers"
-	"github.com/nvwa-io/nvwa-io/nvwa-server/daos"
-	"github.com/nvwa-io/nvwa-io/nvwa-server/libs/errs"
-	"github.com/nvwa-io/nvwa-io/nvwa-server/libs/logger"
-	"github.com/nvwa-io/nvwa-io/nvwa-server/svrs"
+	"github.com/fuhsicloud/fuhsi-next/fuhsi-server/controllers"
+	"github.com/fuhsicloud/fuhsi-next/fuhsi-server/daos"
+	"github.com/fuhsicloud/fuhsi-next/fuhsi-server/libs/errs"
+	"github.com/fuhsicloud/fuhsi-next/fuhsi-server/libs/logger"
+	"github.com/fuhsicloud/fuhsi-next/fuhsi-server/svrs"
 	"strings"
 )
 
