@@ -82,7 +82,7 @@ func (t *ApiLogic) UpdateBuildInfo(buildId int64, params map[string]interface{})
 	return t.checkApiResponse(res)
 }
 
-// update version package to nvwa-server
+// update version package to fuhsi-server
 func (t *ApiLogic) UploadPackage(buildId int64, pkgName, pkgFile string) error {
 	res, err := resty.R().SetQueryParams(map[string]string{
 		"build_id": fmt.Sprintf("%d", buildId),
@@ -97,7 +97,7 @@ func (t *ApiLogic) UploadPackage(buildId int64, pkgName, pkgFile string) error {
 	return t.checkApiResponse(res)
 }
 
-// send notify to nvwa-server with message
+// send notify to fuhsi-server with message
 func (t *ApiLogic) Notify() error {
 	body := map[string]interface{}{
 		"message": t.opt.Notify.Message,

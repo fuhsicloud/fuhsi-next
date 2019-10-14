@@ -22,11 +22,11 @@ type Option struct {
 	// config file path
 	ConfFile string
 
-	// app name, same as app created in nvwa-server
+	// app name, same as app created in fuhsi-server
 	App string
 
 	Tar struct {
-		// nvwa-server build id
+		// fuhsi-server build id
 		BuildId int64
 
 		// assign files or dir to pack
@@ -38,7 +38,7 @@ type Option struct {
 	}
 
 	BuildInfo struct {
-		// nvwa-server build id
+		// fuhsi-server build id
 		BuildId int64
 
 		// status of build
@@ -46,18 +46,18 @@ type Option struct {
 	}
 
 	Notify struct {
-		// nvwa-server build id
+		// fuhsi-server build id
 		BuildId int64
 
 		// notify message content
 		Message string
 
-		// notify users, username register in nvwa-server
+		// notify users, username register in fuhsi-server
 		NotifyUser []string
 	}
 
 	Push struct {
-		// nvwa-server build id
+		// fuhsi-server build id
 		BuildId int64
 
 		// package to push

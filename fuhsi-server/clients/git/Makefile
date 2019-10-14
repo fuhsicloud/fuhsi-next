@@ -1,4 +1,4 @@
-PATH=github.com/nvwa-io/nvwa-io/nvwa-server/clients/git
+PATH=github.com/fuhsicloud/fuhsi-next/fuhsi-server/clients/git
 
 clone:
 	go test -count=1 -v ${PATH}  -run=Test_Clone

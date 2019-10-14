@@ -54,7 +54,7 @@ func (t *PkgLogic) Pull() error {
 	data := make([]byte, 0)
 	switch t.opt.Cfg.StorageType {
 	case option.STORAGE_TYPE_LOCAL:
-		logger.Infof("package is stored in nvwa-server host, do nothing, package transport by ssh")
+		logger.Infof("package is stored in fuhsi-server host, do nothing, package transport by ssh")
 	case option.STORAGE_TYPE_OSS:
 		// pull file content
 		data, err = oss_client.C().Config(&oss_client.OssClientConfig{

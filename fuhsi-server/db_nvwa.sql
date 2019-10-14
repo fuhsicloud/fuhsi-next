@@ -29,7 +29,7 @@ CREATE TABLE `app` (
   `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
   `uid` int(10) unsigned NOT NULL DEFAULT '0' COMMENT '创建者 ID',
   `project_id` int(10) unsigned NOT NULL DEFAULT '0' COMMENT '所属项目 ID',
-  `name` varchar(256) NOT NULL DEFAULT '' COMMENT '应用名称(格式：英文数字-_)，如：nvwa-server',
+  `name` varchar(256) NOT NULL DEFAULT '' COMMENT '应用名称(格式：英文数字-_)，如：fuhsi-server',
   `description` varchar(1024) NOT NULL DEFAULT '' COMMENT '项目介绍',
   `deploy_type` tinyint(4) unsigned NOT NULL DEFAULT '1' COMMENT '部署类型，1：Git 项目部署；2：Jenkins 持续集成打包部署；',
   `app_type` tinyint(3) unsigned NOT NULL DEFAULT '1' COMMENT '应用类型，1：自定义项目；2：SpringBoot；3：NodeJs；4：PM2 部署；',

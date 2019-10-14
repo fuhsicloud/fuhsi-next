@@ -14,7 +14,7 @@
 package apis
 
 import (
-	"github.com/fuhsicloud/fuhsi-next/nvwa-server/libs/errs"
+	"github.com/fuhsicloud/fuhsi-next/fuhsi-server/libs/errs"
 	. "github.com/fuhsicloud/fuhsi-next/fuhsi-server/svrs"
 )
 

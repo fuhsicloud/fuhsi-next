@@ -1,4 +1,4 @@
-PATH=github.com/nvwa-io/nvwa-io/nvwa-server/clients/jenkins
+PATH=github.com/fuhsicloud/fuhsi-next/fuhsi-server/clients/jenkins
 
 csrf:
 	go test -count=1 -v ${PATH}  -run=Test_Csrf

@@ -293,7 +293,7 @@ func (t *AppSvr) GetGitClientByApp(app *AppEntity) (*git.Client, error) {
 	system := DefaultSystemSvr.Get()
 	if strings.HasPrefix(app.RepoUrl, "git") {
 		// config non-thing
-		// because ssh repository url uses user's ssh public key (the system user who boot nvwa-server)
+		// because ssh repository url uses user's ssh public key (the system user who boot fuhsi-server)
 		return gitClient, nil
 	} else if strings.HasPrefix(app.RepoUrl, "http") {
 		switch system.GitCIAuthType {

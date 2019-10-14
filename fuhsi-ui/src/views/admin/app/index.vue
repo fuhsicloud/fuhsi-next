@@ -69,7 +69,7 @@
         <el-row :gutter="30">
           <el-col :xs="12" :sm="12" :lg="12">
             <el-form-item :label="$t('page.deploy.appName')" prop="name">
-              <el-input v-model="formAppData.name" :disabled="formAppData.id > 0" placeholder="e.g: nvwa-server" />
+              <el-input v-model="formAppData.name" :disabled="formAppData.id > 0" placeholder="e.g: fuhsi-server" />
             </el-form-item>
             <el-form-item :label="$t('page.deploy.appDescription')" prop="description">
               <el-input
@@ -82,12 +82,12 @@
               <el-input v-model="formAppData.deploy_user" :value="system.deploy_user" :disabled="!system.custom_deploy_user" placeholder="e.g: nvwa"/>
             </el-form-item>
             <el-form-item :label="$t('page.deploy.deployPath')" prop="deployPath">
-              <el-input v-model="formAppData.deploy_path" :disabled="!system.custom_deploy_path" placeholder="e.g: nvwa-server"/>
+              <el-input v-model="formAppData.deploy_path" :disabled="!system.custom_deploy_path" placeholder="e.g: fuhsi-server"/>
             </el-form-item>
           </el-col>
           <el-col :xs="12" :sm="12" :lg="12">
             <el-form-item :label="$t('page.deploy.gitRepo')" prop="repo_url" >
-              <el-input v-model="formAppData.repo_url" placeholder="e.g: http://github.com/nvwa-io/nvwa-io"/>
+              <el-input v-model="formAppData.repo_url" placeholder="e.g: http://github.com/fuhsicloud/fuhsi-next"/>
             </el-form-item>
 
             <div v-if="!httpConfigVisible" class="warning">
@@ -104,10 +104,10 @@
                 </el-radio-group>
                 <div v-if="httpConfig === 'custom'" class="blk">
                   <el-form-item :label="$t('page.deploy.gitUsername')" prop="gitUsername">
-                    <el-input v-model="formAppData.repo_username" placeholder="e.g: nvwa-server"/>
+                    <el-input v-model="formAppData.repo_username" placeholder="e.g: fuhsi-server"/>
                   </el-form-item>
                   <el-form-item :label="$t('page.deploy.gitPassword')" prop="gitPassword">
-                    <el-input v-model="formAppData.repo_password" placeholder="e.g: nvwa-server"/>
+                    <el-input v-model="formAppData.repo_password" placeholder="e.g: fuhsi-server"/>
                   </el-form-item>
                 </div>
               </div>

@@ -27,7 +27,7 @@ var (
 	}
 )
 
-// trans string status to nvwa-server build status (int)
+// trans string status to fuhsi-server build status (int)
 func BuildStatus2Int(status string) int {
 	if _, ok := buildStatusMap[status]; !ok {
 		log.Fatal("Invalid build status: " + status)
