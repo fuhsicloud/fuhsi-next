@@ -24,7 +24,7 @@ import (
 	"github.com/fuhsicloud/fuhsi-next/fuhsi-server/libs"
 	"github.com/fuhsicloud/fuhsi-next/fuhsi-server/libs/errs"
 	"github.com/fuhsicloud/fuhsi-next/fuhsi-server/libs/logger"
-	"k8s.io/kubernetes/staging/src/k8s.io/apimachinery/pkg/util/json"
+	"k8s.io/apimachinery/pkg/util/json"
 	"strings"
 )
 

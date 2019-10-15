@@ -5,7 +5,7 @@ import (
     "crypto/md5"
     "encoding/hex"
     "fmt"
-    "k8s.io/kubernetes/staging/src/k8s.io/apimachinery/pkg/util/json"
+    "k8s.io/apimachinery/pkg/util/json"
     "strings"
     "text/template"
     "time"

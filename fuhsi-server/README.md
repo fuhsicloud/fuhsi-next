@@ -1,6 +1,7 @@
+go get golang.org/x/net/proxy
 go mod init
 go mod tidy
-go build -o fuhsi-server main.go
+go build -o fuhsi-server.exe main.go
 go build -ldflags "-s -w" -o fuhsi-server -mod=vendor main.go
 
 # 启用 Go Modules 功能
