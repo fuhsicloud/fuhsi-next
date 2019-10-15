@@ -1,4 +1,4 @@
-// Copyright 2019 - now The https://github.com/nvwa-io/nvwa-io Authors
+// Copyright 2019 - now The https://github.com/fuhsicloud/fuhsi-next Authors
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
 // You may obtain a copy of the License at
@@ -14,12 +14,13 @@
 package cmd
 
 import (
+	"os"
+
 	"github.com/fuhsicloud/fuhsi-next/fuhsi-agent/lang"
 	"github.com/fuhsicloud/fuhsi-next/fuhsi-agent/libs/logger"
 	"github.com/fuhsicloud/fuhsi-next/fuhsi-agent/logic"
 	"github.com/fuhsicloud/fuhsi-next/fuhsi-agent/option"
 	"github.com/spf13/cobra"
-	"os"
 )
 
 // notify sub command
