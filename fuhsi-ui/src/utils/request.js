@@ -24,7 +24,7 @@ const service = axios.create({
 service.interceptors.request.use(
   config => {
     if (getToken()) {
-      config.headers['Nvwa-Token'] = getToken()
+      config.headers['Fuhsi-Token'] = getToken()
     }
     return config
   },

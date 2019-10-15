@@ -486,18 +486,18 @@ func init() {
 
     beego.GlobalControllerRouter["github.com/fuhsicloud/fuhsi-next/fuhsi-server/controllers:ProjectRoleController"] = append(beego.GlobalControllerRouter["github.com/fuhsicloud/fuhsi-next/fuhsi-server/controllers:ProjectRoleController"],
         beego.ControllerComments{
-            Method: "Delete",
+            Method: "Detail",
             Router: `/:project_role_id`,
-            AllowHTTPMethods: []string{"delete"},
+            AllowHTTPMethods: []string{"put"},
             MethodParams: param.Make(),
             Filters: nil,
             Params: nil})
 
     beego.GlobalControllerRouter["github.com/fuhsicloud/fuhsi-next/fuhsi-server/controllers:ProjectRoleController"] = append(beego.GlobalControllerRouter["github.com/fuhsicloud/fuhsi-next/fuhsi-server/controllers:ProjectRoleController"],
         beego.ControllerComments{
-            Method: "Detail",
+            Method: "Delete",
             Router: `/:project_role_id`,
-            AllowHTTPMethods: []string{"put"},
+            AllowHTTPMethods: []string{"delete"},
             MethodParams: param.Make(),
             Filters: nil,
             Params: nil})

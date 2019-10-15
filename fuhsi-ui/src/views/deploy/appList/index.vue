@@ -89,7 +89,7 @@
                 :autosize="{ minRows: 2, maxRows: 4}"
                 v-model="formAppData.description"
                 type="textarea"
-                placeholder="e.g: 女娲服务端"/>
+                placeholder="e.g: 伏羲服务端"/>
             </el-form-item>
             <el-form-item :label="$t('page.deploy.deployUser')" prop="deploy_user">
               <el-input v-model="formAppData.deploy_user" :value="system.deploy_user" :disabled="!system.custom_deploy_user" placeholder="e.g: nvwa"/>

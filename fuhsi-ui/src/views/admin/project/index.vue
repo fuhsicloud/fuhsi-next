@@ -193,7 +193,7 @@
         label-width="90px"
         style="padding: 0 20px">
         <el-form-item :label="$t('page.deploy.projectName')" prop="name">
-          <el-input v-model="formProjectData.name" placeholder="e.g: 女娲项目" />
+          <el-input v-model="formProjectData.name" placeholder="e.g: 伏羲项目" />
         </el-form-item>
         <el-form-item :label="$t('page.deploy.description')" prop="description">
           <el-input

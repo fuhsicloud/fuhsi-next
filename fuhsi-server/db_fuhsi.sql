@@ -467,7 +467,7 @@ DROP TABLE IF EXISTS `project`;
 CREATE TABLE `project` (
   `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
   `uid` int(10) unsigned NOT NULL DEFAULT '0' COMMENT '创建者 ID',
-  `name` varchar(256) NOT NULL DEFAULT '' COMMENT '项目名称，如：女娲项目',
+  `name` varchar(256) NOT NULL DEFAULT '' COMMENT '项目名称，如：伏羲项目',
   `description` varchar(1024) NOT NULL DEFAULT '' COMMENT '项目介绍',
   `enabled` tinyint(3) unsigned NOT NULL DEFAULT '1' COMMENT '1：正常；2：删除',
   `ctime` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
@@ -481,7 +481,7 @@ LOCK TABLES `project` WRITE;
 
 INSERT INTO `project` (`id`, `uid`, `name`, `description`, `enabled`, `ctime`, `utime`)
 VALUES
-	(8,1,'女娲部署系统','OK, 描述',1,'2018-12-28 01:40:05','2019-01-16 23:06:37'),
+	(8,1,'伏羲部署系统','OK, 描述',1,'2018-12-28 01:40:05','2019-01-16 23:06:37'),
 	(9,1,'容器化项目','OK, 描述',1,'2018-12-28 01:40:05','2019-01-16 23:06:37');
 
 /*!40000 ALTER TABLE `project` ENABLE KEYS */;
@@ -612,7 +612,7 @@ CREATE TABLE `system` (
   `custom_pkg_root_path` tinyint(3) unsigned NOT NULL DEFAULT '1' COMMENT '是否允许应用自定义版本包根路径，1：允许；0：不允许',
   `pkg_storage_type` varchar(64) NOT NULL DEFAULT '1' COMMENT '版本包保存方式，local：本机；oss：aliyun oss; cos: tencent cloud cos; aws-s3: aws s3',
   `pkg_storage_config` text NOT NULL COMMENT '版本包保存方式对应的配置',
-  `git_ci_auth_type` tinyint(3) unsigned NOT NULL DEFAULT '1' COMMENT '女娲拉去git仓库代码，对于 HTTP 的 URL 有两种方式：账号密码或Token。1：账号密码；2：Token。对于 SSH 的 URL，使用的是部署女娲的主机的 public key',
+  `git_ci_auth_type` tinyint(3) unsigned NOT NULL DEFAULT '1' COMMENT '伏羲拉去git仓库代码，对于 HTTP 的 URL 有两种方式：账号密码或Token。1：账号密码；2：Token。对于 SSH 的 URL，使用的是部署伏羲的主机的 public key',
   `git_ci_user` varchar(256) NOT NULL DEFAULT '' COMMENT '（HTTP）Git  持续集成用户',
   `git_ci_password` varchar(256) NOT NULL DEFAULT '' COMMENT '（HTTP）Git 持续集成用户的密码',
   `git_ci_token` varchar(256) NOT NULL DEFAULT '' COMMENT '（HTTP）持续集成 Token，HTTP 认证方式有两种，一种账号密码；一种通过 Token。',

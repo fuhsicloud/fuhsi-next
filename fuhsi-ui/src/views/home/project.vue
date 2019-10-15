@@ -82,9 +82,7 @@
         <br>
         <p> {{ $t('page.deploy.nvwaArch') }}</p>
         <br>
-        <div>
-          <img src="@/assets/images/nvwa-arch.png" alt="nvwa-arch" style="width:100%;">
-        </div>
+
       </div>
 
       <el-dialog :visible.sync="dialogMemberVisible" :title="$t('page.deploy.memberManagement')" width="700px">
@@ -207,7 +205,7 @@
         label-width="90px"
         style="padding: 0 20px">
         <el-form-item :label="$t('page.deploy.projectName')" prop="name">
-          <el-input v-model="formProjectData.name" placeholder="e.g: 女娲项目" />
+          <el-input v-model="formProjectData.name" placeholder="e.g: 伏羲项目" />
         </el-form-item>
         <el-form-item :label="$t('page.deploy.description')" prop="description">
           <el-input

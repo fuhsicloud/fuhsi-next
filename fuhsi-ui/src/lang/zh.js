@@ -11,7 +11,7 @@ const vars = {
 
     role: '角色',
     memberManagement: '成员管理',
-    nvwaArch: '女娲架构原理',
+    nvwaArch: '伏羲架构原理',
     username: '用户名',
     remove: '移除',
     editRole: '修改角色',
@@ -103,7 +103,7 @@ const vars = {
     gitPassword: '密码',
     deployUser: '部署用户',
     deployPath: '部署路径',
-    gitSshTip: '需要女娲所在主机能 SSH 免密拉去/更新代码。',
+    gitSshTip: '需要伏羲所在主机能 SSH 免密拉去/更新代码。',
     gitHttpTip: '需要配置仓库账号密码或使用系统默认账号。',
 
     addEnv: '新建环境',

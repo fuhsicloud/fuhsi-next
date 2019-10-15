@@ -8,7 +8,7 @@
             <div class="logo">
               <router-link to="/home">
                 <img src="@/assets/images/app-white.png" alt="">
-                <span>女娲</span>
+                <span>伏羲</span>
               </router-link>
             </div>
           </a>
@@ -19,9 +19,9 @@
               用户端
             </router-link>
             <span style="min-height:8px;width: 1px;background: rgba(78,106,140,0.91); display: inline-block;margin: 0 5px;"/>
-            <a href="http://nvwa-io.com" target="_blank">
-              女娲官网
-            </a>
+            <!-- <a href="http://nvwa-io.com" target="_blank">
+              伏羲官网
+            </a> -->
         </div></el-col>
       </el-row>
     </div>

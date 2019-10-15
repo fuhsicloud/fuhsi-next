@@ -2,7 +2,7 @@
 
 // const TokenKey = 'Admin-Token'
 
-const KEY_TOKEN = 'Nvwa-Token'
+const KEY_TOKEN = 'Fuhsi-Token'
 
 export function getToken() {
   const data = localStorage.getItem(KEY_TOKEN)

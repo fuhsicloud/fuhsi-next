@@ -22,7 +22,7 @@ type UserController struct {
 	BaseAuthController
 }
 
-// @Title get user detail by nvwa-token
+// @Title get user detail by fuhsi-token
 // @router /detail [get]
 func (t *UserController) Detail() {
 	user, err := DefaultUserSvr.GetById(t.uid())
